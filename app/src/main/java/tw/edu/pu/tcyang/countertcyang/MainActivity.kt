@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
     override fun onTouchEvent(event: MotionEvent?): Boolean {
         var txv:TextView = findViewById(R.id.txv)
-        txv.text = "螢幕觸控空"
+        txv.text = "螢幕觸控中"
         return true
     }
 }
