@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
     override fun onTouchEvent(event: MotionEvent?): Boolean {
         var txv:TextView = findViewById(R.id.txv)
-        txv.text = "螢幕觸控"
+        txv.text = "螢幕觸控2"
         return true
     }
 }
